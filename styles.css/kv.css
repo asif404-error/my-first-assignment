@@ -1,24 +1,66 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.font-inter{
+
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-header{
-    /* background-color: #fffff; */
-    background-color: lightgray;
-    /* padding:120px;
-    margin:auto; */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-nav{
-     width: 100%;
-     max-width:1600px;
-     /* height: 92px; */
-     border: 1px solid white;
-     margin:0px auto;
-     display: flex;
-     justify-content:space-between;
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn:hover{
+background-color: #519e76;
+}
+
+.btn-primary {
+  background-color: #30B868;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-outline {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: transparent;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 15px 0;
+  top: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a202c;
+  font-size: 16px;
 }
